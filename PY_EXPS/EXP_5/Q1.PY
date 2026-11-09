@@ -1,0 +1,12 @@
+# 1. WAP to input two dictionaries and print the values by merging the two dictionaries. 
+
+dict1=dict(eval(input("Enter a dictionary values:")))
+print(dict1)
+
+dict2=dict(eval(input("Enter a dictionary values:"))) 
+print(dict2)
+
+dict1.update(dict2)
+
+print("After merging the list is:") 
+print(dict1)
